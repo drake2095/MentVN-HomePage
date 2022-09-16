@@ -6,8 +6,10 @@
          <Logo />
          <Navbar />
          <BtnLogin  />
+         <IconNavMobile />
          </nav>
       <Slogan />
+      <CompanyImage />
       </div>
       
    </section>
@@ -51,7 +53,7 @@
 }
 
 .home-section-header ul {
-    display: flex;
+
     align-items: center;
 }
 
@@ -61,7 +63,7 @@
     list-style: none;
     width: auto;
     font-size: 14px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     font-size: 20px;
     line-height: 26px;
 }

@@ -1,10 +1,12 @@
 <template>
   <div>
     <TheHeader />
+    <TheFooter />
   </div>
 </template>
 
 <style>
+
 html {
   font-family:
     'Source Sans Pro',
@@ -58,5 +60,42 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+footer .copyright {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+footer {
+    background: linear-gradient(334.93deg, #23033C -57.5%, #2ccfbb 87.13%);
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-top {
+    overflow: hidden;
+    padding: 20px 16px;
+}
+footer li:not(:last-child) {
+    margin-bottom: 6px;
+}
+footer svg {
+    display: inline-block;
+}
+footer .input-wrap {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+footer .btn-submit {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+footer .btn-submit {
+    background-color: #B2B6BD;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    color: #Fff;
 }
 </style>
